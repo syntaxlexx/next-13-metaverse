@@ -30,6 +30,15 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 ![Screenshot 4](public/screenshots/4.png)
 ![Screenshot 5](public/screenshots/5.png)
 
+## Deploy on VPS
+Use `PM2`
+
+```bash
+pm2 start ecosystem.config.js
+```
+
+> NB: For Pete's sake, don't use `npm run start`! Spare us the talk or simply use `Netflify`, `Vercel`, e.t.c
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
