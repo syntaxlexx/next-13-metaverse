@@ -34,6 +34,10 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 Use `PM2`
 
 ```bash
+npm install
+
+npm run build
+
 pm2 start ecosystem.config.js
 ```
 
